@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8080/api",
+  baseURL: "https://local-service-finder-backend-1-vmge.onrender.com/api",
   withCredentials: true,
 });
 
